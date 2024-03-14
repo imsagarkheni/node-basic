@@ -31,7 +31,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://react-basic-eta.vercel.app/"],
+  origin: ["http://localhost:3000", "https://react-basic-eta.vercel.app"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // This option allows cookies to be sent cross-origin
 };
